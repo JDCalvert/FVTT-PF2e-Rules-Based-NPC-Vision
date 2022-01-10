@@ -1,7 +1,7 @@
 {
     "name": "pf2e-rules-based-npc-vision",
     "title": "PF2e Rules-Based NPC Vision",
-    "description": "Enable PF2e rules-based vision for NPCs",
+    "description": "Enable PF2e rules-based vision for NPCs.",
     "author": "JDCalvert",
     "version": "1.0.0",
     "minimumCoreVersion": "9",
