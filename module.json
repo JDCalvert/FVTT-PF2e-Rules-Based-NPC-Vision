@@ -1,0 +1,25 @@
+{
+    "name": "pf2e-rules-based-npc-vision",
+    "title": "PF2e Rules-Based NPC Vision",
+    "description": "Enable PF2e rules-based vision for NPCs.",
+    "author": "JDCalvert",
+    "version": "1.0.0",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "system": [
+        "pf2e"
+    ],
+    "dependencies": [
+        {
+            "name": "lib-wrapper"
+        }
+    ],
+    "url": "https://github.com/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision",
+    "manifest": "https://raw.githubusercontent.com/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/main/module.json",
+    "readme": "https://github.com/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision",
+    "bugs": "https://github.com/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/issues",
+    "changelog": "https://github.com/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/blob/main/CHANGELOG.md",
+    "scripts": [
+        "scripts/npcvision.js"
+    ]
+}
