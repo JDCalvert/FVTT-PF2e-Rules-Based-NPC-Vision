@@ -19,7 +19,7 @@ Hooks.on(
             function npcVisionLevel(...args) {
                 const senses = this.data.data.traits.senses.value.split(",").map(s => s.replace(/[\s-]+/g, '').toLowerCase());
                 return this.getCondition("blinded") ? VisionLevelPF2e.BLINDED
-                    : senses.includes("darkvision")
+                    : senses.some(sense => ["darkvision", "greaterdarkvision"].includes(sense))
                         ? VisionLevelPF2e.DARKVISION
                         : senses.includes("lowlightvision")
                             ? VisionLevelPF2e.LOW_LIGHT_VISION
