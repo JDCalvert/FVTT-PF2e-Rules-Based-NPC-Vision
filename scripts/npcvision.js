@@ -16,8 +16,8 @@ Hooks.on(
         libWrapper.register(
             pf2eRulesBasedNpcVisionModuleName,
             "CONFIG.PF2E.Actor.documentClasses.npc.prototype.visionLevel",
-            function npcVisionLevel(...args) {
-                const senses = this.data.data.traits.senses.value.split(",").map(s => s.replace(/[\s-]+/g, '').toLowerCase());
+            function npcVisionLevel() {
+                const senses = (this.data.data.traits.senses.value ?? "").split(",").map(s => s.replace(/[\s-]+/g, '').toLowerCase());
                 return this.getCondition("blinded") ? VisionLevelPF2e.BLINDED
                     : senses.some(sense => ["darkvision", "greaterdarkvision"].includes(sense))
                         ? VisionLevelPF2e.DARKVISION
