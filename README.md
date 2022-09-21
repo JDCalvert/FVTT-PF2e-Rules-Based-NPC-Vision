@@ -1,6 +1,9 @@
 # FVTT PF2e Rule-Based NPC Vision
 A module for the Foundry VTT PF2e system which enables rules-based vision for NPCs.
 
+![Github All Releases](https://img.shields.io/github/downloads/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/total.svg)
+![Github Latest Release](https://img.shields.io/github/downloads/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/latest/total)
+
 ## Features
 Currently, in the Pathfinder 2e system, NPCs are not affected by rules-based vision due to how the data is formatted and a potential performance impact.
 
