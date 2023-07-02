@@ -2,7 +2,7 @@
 A module for the Foundry VTT PF2e system which enables rules-based vision for NPCs.
 
 ![Github All Releases](https://img.shields.io/github/downloads/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/total.svg)
-![Github Latest Release](https://img.shields.io/github/downloads/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/latest/total)
+![Github Latest Release](https://img.shields.io/github/downloads/JDCalvert/FVTT-PF2e-Rules-Based-NPC-Vision/2.0.1/total)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/jdcalvert)
 

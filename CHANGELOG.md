@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.1 - 2023-07-02
+- Verified Foundry v11 compatibility
+
 ## 2.0.0 - 2022-09-21
 - Foundry v10 compatibility
 
